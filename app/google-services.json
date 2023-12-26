@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393805271490",
+    "project_id": "kopidong-1adc8",
+    "storage_bucket": "kopidong-1adc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393805271490:android:474ec11c51ac5772c5465b",
+        "android_client_info": {
+          "package_name": "com.example.kopidong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb4SJ53pdArqlJdjGT2jFfTzIt3y7flwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

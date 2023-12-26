@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgkk"
+    tools:context=".Bobaliberica">
+    <TextView
+        android:id="@+id/bobaliberica_txt1"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="BobaLiberica"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_header1"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/bobaliberica_gambar1"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bobaliberica"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/bobaliberica_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_below="@+id/bobaliberica_gambar1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/bobaliberica_txt3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bobaliberica_txt2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_deskripsi"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="Ciri khas kopi liberika adalah aromanya yang seperti nangka nah kini kita variasikan kopi ini dengan menambahkan topping kekikinian seperti boba untuk dasar sendiri sama seperti coffee milk kebanyakan"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+</RelativeLayout>

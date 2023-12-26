@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgkk"
+    tools:context=".Icesweetrobusta">
+    <TextView
+        android:id="@+id/icesweetrobusta_txt1"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="IcesweetRobusta"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_header1"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/icesweetrobusta_gambar1"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icesweetrobusta"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/icesweetrobusta_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_below="@+id/icesweetrobusta_gambar1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/icesweetrobusta_txt3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icesweetrobusta_txt2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_deskripsi"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text=" untuk kamu yang pengen bikin di rumah dan simple ini solusi nya
+ 2 sachet kopi instan (kopi robusta)
+60 ml air panas
+45 ml santan instan
+100 ml susu UHT
+120 gram es batu
+Simple syrup gula aren
+100 ml air
+50 gram gula pasir
+100 gram gula aren "
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+</RelativeLayout>
